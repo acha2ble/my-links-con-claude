@@ -1,0 +1,109 @@
+/* eleccio de color alternativo
+color principal #5c5c5c
+color segundario #6b6
+colore texto 
+*/
+
+body{
+  background-color: #7cbbbf;
+  font-family:'Open Sans', sans-serif;
+  }
+header{
+display: flex;
+justify-content: space-between;
+padding-inline: 50px;
+  }
+  nav{
+    display: flex;
+    gap: 30px;
+  }
+a{
+    transitiont: color 0.5s ease, font-weight;
+    0.3s ease, font-family 0.3s ease;
+}
+
+a:hover{
+    color: black;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+}
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50PX;
+  }
+  .bio{
+    font-family: 'Honst Grotesk',sans-serif;
+    color:  #5c5c5c;
+
+  }
+.ka{
+    font-family: "Dancing Script", cursive;
+    color: bisque;
+}
+.card{
+    padding: 50PX;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 700px;
+    border: 5px solid transparent;
+    transition:box-shadow 0.3s ease, border 0.3s ease;
+    position: relative;
+   
+}
+.card:hover{
+    box-shadow: 0 12px 16px yellowgreen;
+    border: 5px solid beige;
+    transform: scale(1.05);
+}
+
+
+
+
+h1{
+    font-family: "UnifrakturCook", cursive;
+    color: antiquewhite;
+}
+#mi-Foto{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+background-color: #4EA7AD;
+}
+#mi-Foto img{
+    width: 400px;
+}
+#mi-biografia{
+    background-color: red;
+    
+}
+#mis-comidas-favoritas{
+    background-color: rgb(194, 188, 25);
+}
+#mis-videojuegos-favoritos{
+    background-color: red;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 50px;
+    background-color: #5c5c5c;
+    font-size: 24px;
+
+}
+
+#sobre-mi{
+    display: flex;
+    justify-content: space-between;x
+}
+#sobre-mi #cont p:hover{
+    color: yellowgreen;
+}
+#derechos{
+    display: flex;
+    justify-content: space-between;
+}
